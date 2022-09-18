@@ -1,0 +1,29 @@
+Create account on - https://github.com/
+Create a new repository
+
+Install software on Local laptop/ Desktop
+To download - search GIT CLI on internet and download windows or Linux
+
+After software download install the GIT CLI software
+
+AFter the software in insatlled , open command window or git bash prompt
+
+type -  git --version  - this should print the versoin of git
+
+Create a folder/directory where you will store you files
+
+change the directory to newly created directory
+CD <folder/ directory name>
+
+then created README.md file with command- 
+
+echo "# Gitfirstrepository" >> README.md
+
+
+echo "# Gitfirstrepository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bhartuatgmail/Gitfirstrepository.git
+git push -u origin main
